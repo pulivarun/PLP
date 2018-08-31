@@ -4,13 +4,14 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <title>Insert title here</title>
 </head>
-<body>
+<body background="../images/c.png">
 <ul>
   <li><a href="/#">Home</a></li>
-  <li><a href="/Merchant">Dispatch Report</a></li>
   <li><a href="/Product">Merchant Products</a></li>
+  <li><a href="/Merchant">Dispatch report</a></li>
 </ul>
 </body>
 </html>

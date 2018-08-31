@@ -4,16 +4,20 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <title>Insert title here</title>
 <link rel="stylesheet" href="../css/style.css"/>
 </head>
-<body>
+<body background="../images/c.png">
 <jsp:include page="Header.jsp" />
 <div>
-<h2>Merchant Products</h2>
-<input type=text name="Merchand_id" id="Merchand_id" placeholder="Merchand_id">  
-<input type="button" value="Show Products" onclick="location.href='/ShowProducts/'+document.getElementById('Merchand_id').value">
+<center>
+<h2>Product Dispatch Report</h2>
+<input type=text name="Merchand_id" id="Product_id" placeholder="Product_id">  
+<input type="button" value="Show Products" onclick="location.href='/ShowDispatch/'+document.getElementById('Product_id').value">
 <!-- <a href="/ShowProducts">show Products</</a> -->
+</center>
 </div>
+ <jsp:include page="Footer.jsp" />
 </body>
 </html>

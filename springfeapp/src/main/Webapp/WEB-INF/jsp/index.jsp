@@ -8,10 +8,11 @@
 <title>index</title>
 <link rel="stylesheet" href="../css/style.css"/>
 </head>
-<body>
+<body background="../images/c.png">
 <jsp:include page="Header.jsp" />
-<div>
-<marquee><h2><font color="Red">This is Home Page</font></h2></marquee>
+<br>
+<br><br><br><br><br><br><br><br><br><br>
+<center><h2 a><font color="Red">Welcome Administrator</font></h2></center>
 <!-- <h2>Merchant Products</h2>
 <input type=text name="Merchand_id" id="Merchand_id" placeholder="Merchand_id">  
 <input type="button" value="Show Products" onclick="location.href='/ShowProducts/'+document.getElementById('Merchand_id').value">
@@ -22,5 +23,6 @@
 <input type=text name="Product_id" id="Product_id" placeholder="Product_id">
 <input type="button" value="Show Products" onclick="location.href='/ShowDispatch/'+document.getElementById('Product_id').value">
 </div> -->
+  <jsp:include page="Footer.jsp" />
 </body>
 </html>
