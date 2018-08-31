@@ -16,16 +16,16 @@ public class ProductController {
 
 	@Autowired
 	private IProductDispatchService productdispatchservice;
-	@RequestMapping("/showproducts/{merchantid}")
-	public List<Product> showProducts(@PathVariable String merchantid) {
+	@RequestMapping("/showproducts/{productid}")
+	public List<Product> showProducts(@PathVariable String productid) {
 		
-		return productdispatchservice.showProducts(Integer.parseInt(merchantid));
+		return productdispatchservice.showProducts(Integer.parseInt(productid));
 	}
 
-	@RequestMapping("/showdispatch/{productid}")
-	public List<Dispatch> showDispatch(@PathVariable String productid) {
+	@RequestMapping("/showdispatch/{merchantid}")
+	public List<Dispatch> showDispatch(@PathVariable String merchantid) {
 	
-		return productdispatchservice.showDispatch(Integer.parseInt(productid));
+		return productdispatchservice.showDispatch(Integer.parseInt(merchantid));
 		
 	}
 
