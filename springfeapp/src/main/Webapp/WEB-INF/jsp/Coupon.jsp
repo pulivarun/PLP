@@ -4,19 +4,17 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<title>Product</title>
+<title>Coupon</title>
 <link rel="stylesheet" href="../css/style.css"/>
 </head>
 <body background="../images/c.png">
 <jsp:include page="Header.jsp" />
-<div>
+
 <center>
-<h2>merchant Report</h2>
-<input type=text name="Product_id" id="Merchant_id" placeholder="Merchant_email">
-<input type="button" value="Show Products" onclick="location.href='/ShowProducts/'+document.getElementById('Merchant_id').value">
+<h2>Coupon</h2>
+Enter Coupon Code<input type="email" id="code" name="code" placeholder="Enter code"/>
+<input type=button value=submit onclick="location.href='/coupon/'+document.getElementById('code').value"/>
 </center>
-</div>
  <jsp:include page="Footer.jsp" />
 </body>
 </html>

@@ -14,6 +14,7 @@ public class Product {
 	
 	private String product_Description;
 	
+	@SuppressWarnings("unused")
 	private Merchant merchant;
 	public int getProduct_Id() {
 		return product_Id;

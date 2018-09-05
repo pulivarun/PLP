@@ -15,9 +15,15 @@ public class JspController {
 		return "Merchant";
 	}
 	
+	@RequestMapping("/coupon")
+	public String showCoupon() {
+		return "Coupon";
+
+	}
 	@RequestMapping("/Product")
-	public String sayProduct() {
+	public String showProduct() {
 		return "Product";
+
 	}
 	/*@REQUESTMAPPING("/INDEX")
 	PUBLIC STRING SAYINDEX() {

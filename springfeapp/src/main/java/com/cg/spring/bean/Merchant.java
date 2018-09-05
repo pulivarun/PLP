@@ -5,20 +5,22 @@ import java.util.List;
 
 
 
+
 public class Merchant {
-
-
-	private int merchant_Id;
 	
+
+	private String Merchant_email;
+
 	private String merchant_Name;
+
 	private List<Product> products = new ArrayList<Product>();
 
-	public int getMerchant_Id() {
-		return merchant_Id;
+	public String getMerchant_Id() {
+		return Merchant_email;
 	}
 
-	public void setMerchant_Id(int merchant_Id) {
-		this.merchant_Id = merchant_Id;
+	public void setMerchant_Id(String merchant_Id) {
+		this.Merchant_email = merchant_Id;
 	}
 
 	public String getMerchant_Name() {

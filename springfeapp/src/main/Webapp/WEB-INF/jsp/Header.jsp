@@ -12,6 +12,7 @@
   <li><a href="/#">Home</a></li>
   <li><a href="/Product">Merchant Products</a></li>
   <li><a href="/Merchant">Dispatch report</a></li>
+  <li><a href="/coupon">Coupon</a></li>
 </ul>
 </body>
 </html>
