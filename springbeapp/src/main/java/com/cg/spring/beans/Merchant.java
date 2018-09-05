@@ -17,18 +17,18 @@ public class Merchant {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 
-	private int merchant_Id;
+	private String Merchant_email;
 	@Column(length = 30)
 	private String merchant_Name;
 	@OneToMany(targetEntity = Product.class, mappedBy = "merchant", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
 	private List<Product> products = new ArrayList<Product>();
 
-	public int getMerchant_Id() {
-		return merchant_Id;
+	public String getMerchant_Id() {
+		return Merchant_email;
 	}
 
-	public void setMerchant_Id(int merchant_Id) {
-		this.merchant_Id = merchant_Id;
+	public void setMerchant_Id(String merchant_Id) {
+		this.Merchant_email = merchant_Id;
 	}
 
 	public String getMerchant_Name() {

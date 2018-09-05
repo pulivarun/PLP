@@ -17,7 +17,8 @@ public class DispatchRepoImpl implements IDispatchRepo{
 	@Autowired
 	@PersistenceContext
 	EntityManager entityManager;
-	@Override
+	@SuppressWarnings("unchecked")
+	
 	public List<Dispatch> dispatch(int productid) {
 
 

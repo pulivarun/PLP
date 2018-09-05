@@ -16,7 +16,7 @@ public class Dispatch {
 	private int dispatch_id;
 
 	private LocalDateTime dispatch_time;
-	private int merchant_id;
+	private String merchant_id;
 	private int product_id;
 	@Column(length = 30)
 	private String product_name;
@@ -39,11 +39,11 @@ public class Dispatch {
 		this.dispatch_time = dispatch_time;
 	}
 
-	public int getMerchant_id() {
+	public String getMerchant_id() {
 		return merchant_id;
 	}
 
-	public void setMerchant_id(int merchant_id) {
+	public void setMerchant_id(String merchant_id) {
 		this.merchant_id = merchant_id;
 	}
 
